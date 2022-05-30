@@ -1,0 +1,232 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Steak and kidney pudding",
+      "author": "Kate Bush",
+      "description": "This classic British recipe uses suet pastry, lean stewing steak and a rich, thick stout gravy. Serve with creamy mash and fresh greens.",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredientName": "Dripping or vegetable oil",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "id": 2,
+          "ingredientName": "Onions, halved and sliced",
+          "quantity": "2"
+        },
+        {
+          "id": 3,
+          "ingredientName": "Large carrot, diced",
+          "quantity": "1"
+        },
+        {
+          "id": 4,
+          "ingredientName": "Bay leaves",
+          "quantity": "2"
+        },
+        {
+          "id": 5,
+          "ingredientName": "Plain flour",
+          "quantity": "300g"
+        },
+        {
+          "id": 6,
+          "ingredientName": "English mustard",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "id": 7,
+          "ingredientName": "Diced lean stewing steak",
+          "quantity": "400g"
+        },
+        {
+          "id": 8,
+          "ingredientName": "Kidneys, halved, cored and cut into chunks",
+          "quantity": "2"
+        },
+        {
+          "id": 9,
+          "ingredientName": "Stout",
+          "quantity": "200ml"
+        },
+        {
+          "id": 10,
+          "ingredientName": "Strong beef stock",
+          "quantity": "200ml"
+        },
+        {
+          "id": 11,
+          "ingredientName": "Baking powder",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "id": 12,
+          "ingredientName": "Beef suet",
+          "quantity": "150g"
+        }
+      ],
+      "method": "STEP 1: Melt 1 1/2 tbsp of the dripping in a large, non-stick pan. Fry the onions, carrot and bay leaves for 15 mins, stirring frequently, until golden. STEP 2: Mix the flour, mustard powder and some seasoning in a large bowl, then toss in the steak and kidneys until they are coated. Remove the vegetables from the pan with a slotted spoon and set aside. Add the remaining dripping to the pan and fry the meat until browned. STEP 3: Stir the stout into the remaining flour left in the bowl, then pour into the pan of meat with the stock, and stir over the heat until thickened to a gravy. Return the vegetables to the pan, cover tightly and simmer for 1 hr 15 mins-1 hr 30 mins, stirring frequently, so that the flour in the sauce doesn't stick to the bottom of the pan. If necessary, add a drop or two of water to loosen the consistency, but not too much as you want a thick gravy. The meat won't be completely tender, but it will cook further in the pudding. Set aside to cool or chill overnight. STEP 4: To make the suet pastry, put the flour, baking powder and suet in a bowl with 1/2 tsp salt. Pour in 150ml cold water and stir with a round-bladed knife to bring the mixture together as a dough. Tip onto a lightly floured surface, knead briefly until smooth, then cut off 1/4 and set aside. STEP 5: Very generously grease a 1.2-litre pudding basin. Roll out the biggest piece of dough to a circle large enough to line the inside of the basin right up to the rim. Press the pastry into the basin so that it is an even thickness, then spoon in the steak & kidney mixture. Roll out the remaining pastry to make a round to fit as a lid on top of the basin. Brush round the edge with water, then place on top of the filling, wetted-side down, and seal all the way round with the sides to enclose. STEP 6: Cover the basin with a double layer of greased baking parchment and foil, pleating them first to allow for expansion (alternatively, use muslin). Then tie with string, adding a string handle for easy lifting in and out of the pan. STEP 7: Put an upturned heatproof saucer in the base of a large pan and put the pudding basin on top. Pour in boiling water from the kettle to come 3/4 up the side of the basin, then cover the pan tightly with a lid. If you can't close the pan, cover tightly with foil instead and leave to simmer for 2 hrs over a low heat. If you need to, top with more boiling water, but if the seal is tight, this shouldn't be required. STEP 8: Remove the pudding from the pan and leave to settle for 5 mins, then turn out onto a plate, scatter with parsley (if you like), and serve with mash and greens.",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/steakandkidneypuddin_93128_16x9.jpg",
+      "country_code": "GB"
+    },
+    {
+      "id": 2,
+      "title": "Greek salad",
+      "author": "Demis Roussos",
+      "description": "All the best ingredients and flavors of Greek cuisine, all in one easy summer salad.",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredientName": "Extra virgin olive oil",
+          "quantity": "6 tablespoons"
+        },
+        {
+          "id": 2,
+          "ingredientName": "Fresh lemon juice",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "id": 3,
+          "ingredientName": "Chopped garlic",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "id": 4,
+          "ingredientName": "Red wine vinegar",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "id": 5,
+          "ingredientName": "Dried oregano",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "id": 6,
+          "ingredientName": "Dried dill",
+          "quantity": "1/2 teaspoon"
+        },
+        {
+          "id": 7,
+          "ingredientName": "Large plum tomatoes",
+          "quantity": "3"
+        },
+        {
+          "id": 8,
+          "ingredientName": "Cucumber, peeled, seeded and chopped",
+          "quantity": "3/4"
+        },
+        {
+          "id": 9,
+          "ingredientName": "Red onion, chopped",
+          "quantity": "1/2"
+        },
+        {
+          "id": 10,
+          "ingredientName": "Bell pepper, seeded and chopped",
+          "quantity": "1"
+        },
+        {
+          "id": 11,
+          "ingredientName": "Pitted black olives",
+          "quantity": "1/2 cup"
+        },
+        {
+          "id": 12,
+          "ingredientName": "Crumbled Feta cheese",
+          "quantity": "1/2 cup"
+        }
+      ],
+      "method": "STEP 1: Whisk the olive oil, lemon juice, garlic, vinegar, oregano, and dill together until blended. Season to taste with salt and freshly ground black pepper. STEP 2: Combine the tomatoes, cucumber, onion, bell pepper, olives in a bowl. Toss with dressing. Sprinkle with cheese and serve.",
+      "img": "https://www.simplyrecipes.com/thmb/OG6EgbVHAxD_9YaOyBoEJhQGqSo=/720x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2011__08__dads-greek-salad-horiz-a-1600-bc71b85bc907414a9bb3179a923b58fc.jpg",
+      "country_code": "GR"
+    },
+    {
+      "id": 3,
+      "title": "Princess cake",
+      "author": "Jenny Åkerström",
+      "description": "This Swedish layer cake is great fun - bright green and full of custard, jam, marzipan, and a mound of whipped cream.",
+      "ingredients": [
+        {
+          "id": 1,
+          "ingredientName": "Milk",
+          "quantity": "600ml"
+        },
+        {
+          "id": 2,
+          "ingredientName": "Vanilla pod, split and seeded",
+          "quantity": "1"
+        },
+        {
+          "id": 3,
+          "ingredientName": "Caster sugar",
+          "quantity": "400g"
+        },
+        {
+          "id": 4,
+          "ingredientName": "Cornflour",
+          "quantity": "125g"
+        },
+        {
+          "id": 5,
+          "ingredientName": "Butter",
+          "quantity": "50g"
+        },
+        {
+          "id": 6,
+          "ingredientName": "Raspberries",
+          "quantity": "200g"
+        },
+        {
+          "id": 7,
+          "ingredientName": "Jam sugar",
+          "quantity": "175g"
+        },
+        {
+          "id": 8,
+          "ingredientName": "Large eggs",
+          "quantity": "6"
+        },
+        {
+          "id": 9,
+          "ingredientName": "Plain flour",
+          "quantity": "75g"
+        },
+        {
+          "id": 10,
+          "ingredientName": "Baking powder",
+          "quantity": "1 teaspoon"
+        },
+        {
+          "id": 11,
+          "ingredientName": "Butter",
+          "quantity": "50g"
+        },
+        {
+          "id": 12,
+          "ingredientName": "Double cream",
+          "quantity": "750ml"
+        },
+        {
+          "id": 13,
+          "ingredientName": "Ground almonds",
+          "quantity": "400g"
+        },
+        {
+          "id": 14,
+          "ingredientName": "Icing sugar",
+          "quantity": "250g"
+        },
+        {
+          "id": 15,
+          "ingredientName": "Almond extract",
+          "quantity": "1 teaspoon"
+        }
+      ],
+      "method": "STEP 1: For the vanilla custard, pour the milk into a pan with the vanilla seeds and vanilla pod and place over a low heat until just simmering. Remove from the heat. STEP 2: In a large bowl, whisk the egg yolks, sugar and cornflour together until pale and creamy. STEP 3: Remove the vanilla pod from the warm milk. (You can rinse this off to use in making vanilla sugar.) STEP 4: Stir the warm milk slowly into the egg mixture. Pour the mixture back into the pan and cook over a low heat for 4-5 minutes, whisking, until the mixture thickens. (It should be very thick.) STEP 5: Remove from the heat and beat in the butter until melted and incorporated. Transfer to a bowl, cover the surface with clingfilm to prevent a skin forming and leave to cool. Set aside to chill in the fridge. STEP 5: For the jam, tip the raspberries into a deep saucepan with the sugar and two tablespoons of water. Cook gently over a low heat, stirring occasionally, until the sugar is dissolved. Bring the mixture to the boil and boil vigorously for about four minutes, or until the temperature reaches 104C/219F on a sugar thermometer. Transfer to a heatproof bowl and leave to cool completely. STEP 6: For the sponge, preheat the oven to 180C/160C(fan)/Gas 4. Grease and line the base of a 23cm/9in springform tin with baking parchment. STEP 7: Put the eggs and sugar into a large bowl and using an electric mixer, whisk together until the mixture is very pale and thick and the whisk leaves a trail on the surface when lifted. This will take about five minutes. STEP 8: Sift the cornflour, flour and baking powder over the egg mixture and carefully fold in using a large metal spoon. Fold in the melted butter, taking care not to over mix. STEP 9: Pour the mixture into the lined tin and bake for 25-30 minutes until the sponge is golden-brown and has just started to shrink away from the sides of the tin. Remove from the oven and set aside to cool. When cool enough to handle, turn out on to a wire rack to cool completely. STEP 10: For the fondant rose, roll 10 little pieces of fondant into small balls about the size of a cherry stone. STEP 11: Dust two small pieces of greaseproof paper with icing sugar and one by one, place the balls of fondant between the sheets of greaseproof and flatten each ball out with your fingers, to a thin circle, approximately 2cm/1in in diameter. These form the petals. Roll the first petal up like a sausage to form a bud and wrap the remaining petals around the bud to make a rose. Bend and curl the edges of the petals, to make them look more realistic. Leave to dry for at least an hour. STEP 12: To assemble the cake, using a serrated knife, cut the cake horizontally into three even layers. Place one of the sponges onto a serving plate. Spread a very thin layer of custard over the base of the first sponge. STEP 13: Spoon a quarter of the custard into a piping bag fitted with a small plain nozzle and pipe a border around the edge of the sponge – this is to contain the jam. STEP 14: Spoon the jam over the sponge, and spread evenly within the border. STEP 15: In a bowl, whip 600ml/20fl oz of the double cream to firm peaks. Fold half of the whipped cream into the remaining custard. STEP 16: Spread one-third of the custard cream over the jam. STEP 17: Place the second sponge on top and spread over the remaining custard cream. STEP 18: Place the third sponge on top. Spoon over the remaining whipped cream covering the sides and smoothing into a small dome shape on the top. Set aside in the fridge for an hour. STEP 19: For the marzipan, mix the ground almonds and sugars in a mixer fitted with a dough hook, before adding the eggs and almond extract. STEP 20: Knead in the bowl until it forms a stiff dough. Turn out onto a surface dusted with icing sugar. Using a cocktail stick add a tiny amount of green food colouring and knead to an even pastel green colour. STEP 21: Roll out the marzipan on a surface lightly dusted with icing sugar, to a 40cm/16in diameter circle, large enough to cover the cake. Lift the marzipan up over the cake and using your hands, shape the marzipan around the sides of the cake to get a smooth finish. Trim any excess. STEP 22: Whip the remaining 150ml/5½fl oz of cream to medium peaks and spoon into a piping bag fitted with a small star nozzle. Pipe around the base of the cake. STEP 23: Spoon the melted chocolate into a small paper piping bag. Snip off the end and pipe a swirl over the top of the cake. Top with the fondant rose.",
+      "img": "https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/prinsesstrta_17336_16x9.jpg",
+      "country_code": "SE"
+    }
+  ]
+}

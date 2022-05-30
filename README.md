@@ -4,35 +4,27 @@ Recipes web app made with ReactJS. The application is designed to allow users to
 
 ---
 
-## Notes
-
-This is a student project created as part of the Full-Stack Web Developer programme at Business College Helsinki.
-
----
-
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start server`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Starts JSON server on port 3001. This can be changed in package.json where `"server": "json-server -p3001 --w data/db.json"`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `npm run start`
 
-### `npm test`
+Runs the app in development mode.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ReactJS](https://reactjs.org/)
+- [JSON server](https://www.npmjs.com/package/json-server)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Notes
+
+This is a student project created as part of the Full-Stack Web Developer programme at [Business College Helsinki](https://en.bc.fi/).

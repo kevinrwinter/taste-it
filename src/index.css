@@ -1,13 +1,329 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Raleway, sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  background: #dfdfdf;
+  color: #333;
+}
+img {
+  max-width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Navigation */
+nav {
+  background: #333;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 1rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav h1 {
+  margin-right: auto;
+  color: #fff;
+  text-decoration: none;
+}
+nav h1 a:hover {
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  background-image: url("https://cdn.myportfolio.com/0662f3cf-f2e4-4581-88bd-fcbb4053d4b0/f5fa18cb-cbd5-4226-8006-ec35ff5b14ea_rw_3840.jpg?h=db9bd3b8222928813f381f3f5771bbc0");
+  background-color: #404040;
+  background-blend-mode: multiply;
+  min-height: 50vh;
+  background-size: cover;
+  background-position: center;
+  padding: 8em 0 4em 8em;
+  color: #fff;
+}
+
+.hero-content h2 {
+  font-size: 4rem;
+  font-weight: 200;
+}
+.hero-content p {
+  margin: 2rem 0 3rem;
+  font-size: 1.2rem;
+}
+.hero a {
+  background-color: transparent;
+  display: inline;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #fff;
+}
+.hero a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.home-cards-title {
+  display: flex;
+  font-size: 1.5rem;
+}
+.home-title {
+  margin: 2rem auto 0;
+}
+
+/* HomeCard */
+.homecards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+.home-card {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 1.25rem;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+}
+.home-card-title {
+  font-size: 1.2rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+.home-card-text {
+  margin-bottom: 0.5rem;
+}
+.home-card a {
+  color: darkmagenta;
+  text-decoration: none;
+}
+.home-card a:hover {
+  color: darkmagenta;
+  text-decoration: underline;
+}
+
+/* RecipeList */
+.recipes-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.search-form label {
+  display: block;
+  text-align: center;
+  margin: 2rem 0 0.5rem;
+  font-size: 1.2rem;
+}
+.search-form input {
+  padding: 0.3rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+/* RecipeCard */
+.recipe-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.25);
+  max-height: 600px;
+  padding-bottom: 1.5rem;
+}
+.recipe-card h2 {
+  line-height: 1;
+  margin: 0.75rem 0;
+}
+.recipe-card p {
+  margin: 0.5rem 0 2rem;
+}
+.recipe-card a {
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 4rem;
+  padding: 0.5rem 1.75rem;
+}
+.recipe-card a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.recipe-card .img-container {
+  position: relative;
+}
+.recipe-card-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.recipe-card-flag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+  width: 50px;
+}
+/* RecipeSingle */
+.recipe-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0 30px 0;
+}
+.recipe-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0.5rem auto;
+  max-width: 1200px;
+}
+.recipe-single h2 {
+  margin: 1rem 0 0.5rem;
+}
+.byline {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: -0.4rem;
+}
+.recipe-single p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.recipe-single .image-container {
+  position: relative;
+}
+.recipe-single-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.recipe-single-flag {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 50px;
+}
+.ingredient-row {
+  display: flex;
+  border: 1px solid #999;
+  padding: 0.7rem;
+  justify-self: end;
+  border-top: none;
+}
+.ingredient-row:nth-of-type(1) {
+  border-top: 1px solid #999;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.ingredient-row:last-of-type {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.ingredient-name {
+  margin-left: 5px;
+}
+
+.recipe-form {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem auto 0;
+  max-width: 600px;
+}
+.recipe-form label {
+  display: block;
+  margin: 1.5rem 0 0.2rem;
+}
+.recipe-form input,
+.recipe-form textarea,
+.recipe-form select {
+  width: 100%;
+  padding: 0.3rem;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+.recipe-form textarea {
+  height: 6rem;
+}
+#btn-new-recipe,
+.btn-new-ingredient {
+  display: block;
+  max-width: 25%;
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0.5rem 1.75rem;
+  margin-top: 0.75rem;
+  background-color: #2c974b;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn-new-ingredient {
+  border: 1px solid #2c974b;
+  background-color: #fff;
+  color: #2c974b;
+}
+.btn-new-ingredient:hover {
+  background-color: #2c974b;
+  color: #fff;
+}
+
+#btn-new-recipe {
+  padding: 0.5rem 1.75rem;
+}
+#btn-new-recipe:hover {
+  background-color: #fff;
+  border: 1px solid #2c974b;
+  color: #2c974b;
+}
+
+.ingredient-inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ingredient-input-quantity,
+.ingredient-input-name {
+  width: 48%;
+}
+.recipe-form p {
+  margin: 1rem 0 -0.75rem;
+}
+
+@media (min-width: 800px) {
+  .recipe-container {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .left-side {
+    max-width: 50%;
+  }
+  .right-side {
+    max-width: 50%;
+  }
 }
